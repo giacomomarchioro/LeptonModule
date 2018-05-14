@@ -20,7 +20,8 @@ DESTDIR=.
 OBJECTS_DIR=gen_objs
 MOC_DIR=gen_mocs
 
-HEADERS += *.h
+HEADERS += *.h \
+    test_time.h
 
 SOURCES += *.cpp
 

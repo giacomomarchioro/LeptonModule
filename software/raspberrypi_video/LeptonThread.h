@@ -22,10 +22,16 @@ public:
   LeptonThread();
   ~LeptonThread();
 
+
   void run();
 
 public slots:
   void performFFC();
+  void save_pgm_file();
+  void getTmpKelvin_Sensor();
+  void getTmpCelsius_Sensor();
+  void export_jpg();
+  void export_Raw2Celsius();
 
 signals:
   void updateText(QString);
